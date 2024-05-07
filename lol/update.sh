@@ -1,6 +1,6 @@
 Skip to content
 
-pashayogi / infect
+pashayogi / santet
 
 #colour section
 
@@ -68,21 +68,21 @@ echo " "
 
 echo " "
 
-echo -e "$grn                memperbarui infect tools, harap tunggu$rset"
+echo -e "$grn                memperbarui alat santet, harap tunggu$rset"
 
 sleep 2.0
 
 cd $HOME
 
-rm -rf Infect
+rm -rf santet
 
-git clone https://github.com/pashayogi/Infect
+git clone https://github.com/kdsmedia/santet
 
 clear
 
 echo " "
 
-echo -e "$grn               infect telah diperbarui periksa sekarang ...$rset"
+echo -e "$grn               santet telah diperbarui periksa sekarang ...$rset"
 
 sleep 3.0
 
@@ -90,9 +90,9 @@ echo " "
 
 cd $HOME
 
-cd Infect
+cd santet
 
-bash infect.sh
+bash santet.sh
 
 clear
 
