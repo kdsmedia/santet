@@ -48,9 +48,9 @@ sleep 50.0
 
 clear 
 
-cd $HOME/Infect
+cd $HOME/santet
 
-bash infect.sh
+bash santet.sh
 
 exit 
 
